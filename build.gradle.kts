@@ -5,11 +5,11 @@ plugins {
 dependencies {
     implementation(platform("org.junit:junit-bom:5.9.3"))
     implementation(platform("io.cucumber:cucumber-bom:7.12.1"))
+    implementation("io.cucumber:cucumber-spring:7.12.1")
     implementation("org.springframework.boot:spring-boot-starter-test:3.1.0")
     implementation("org.springframework.boot:spring-boot-starter-web:3.1.0")
-    implementation("io.cucumber:cucumber-spring:7.12.1")
     implementation("io.qameta.allure:allure-cucumber7-jvm:2.21.0")
-
+    implementation("com.epam.jdi:jdi-dark:1.1.13")
 
     implementation("io.cucumber:cucumber-java")
     implementation("io.cucumber:cucumber-junit-platform-engine")

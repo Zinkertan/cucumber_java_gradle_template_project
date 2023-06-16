@@ -1,4 +1,4 @@
-package io.cucumber.skeleton;
+package base;
 
 import io.cucumber.spring.ScenarioScope;
 import org.springframework.stereotype.Component;

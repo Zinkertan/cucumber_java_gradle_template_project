@@ -1,5 +1,4 @@
-package io.cucumber.skeleton;
-
+package base;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -11,9 +10,5 @@ public class SpringDemoApplication {
         SpringApplication.run(SpringDemoApplication.class, args);
     }
 
-//    @Bean
-//    public TestsContext getTestsContext() {
-//        return new TestsContext();
-//    }
 
 }
